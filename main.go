@@ -7,6 +7,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
+
 func main() {
 	log.Println("Opening the connectoion")
 	db, err := sql.Open("mysql", "root:Welcome#123@tcp(127.0.0.1)/northwind")
